@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/* router */
+.router-link-exact-active,.router-link-active{
+  color: #ec1147 !important;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px #f5d5daee;
+}
+
+
+/* 滚动 */
+*::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 10px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+  overflow: auto;
+}
+
+*::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ef5279;
+}
+
+*::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: #EDEDED;
+}
+
+/* mrkdown文档样式 */
+.meow_docs section {
+  color: #3f536e;
+  font-size: 14px;
+}
+.meow_docs section h1,h2,h3,h4,h5,pre,code,img,a,p,table{
+  padding-left:1rem !important;
+}
+.meow_docs section >div{
+  margin-left:1rem !important;
+}
+.meow_docs section>ul{
+  margin-left:1rem !important;
+}
+.meow_docs section .demo-block {
+  padding: 32px;
+  border: 1px solid #e2ecf4;
+  border-radius: 4px 4px 0 0;
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-right:1rem;
+}
+.meow_docs section hr {
+  margin: 1.2em 0;
+  border: 0;
+  border-bottom: 2px solid #f5d5da;
+}
+.meow_docs section p {
+  padding: 0;
+  line-height: 1.7;
+  color: #3f536e;
+  font-size: 14px;
+}
+.meow_docs section h1 {
+  font-size: 24px;
+}
+.meow_docs section h1,
+.meow_docs section h2,
+.meow_docs section h3,
+.meow_docs section h4,
+.meow_docs section h5 {
+  padding: 16px 0;
+  line-height: 1.5;
+}
+.meow_docs section h2 {
+  font-size: 18px;
+}
+.meow_docs section ul {
+  margin: 10px 0;
+  padding-left: 24px;
+  list-style: disc;
+}
+.meow_docs section ul ul{
+  margin:0 !important;
+}
+.meow_docs section ul li {
+  line-height: 1.8;
+}
+.meow_docs section pre {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #F7F7F7;
+  overflow: auto;
+}
+.meow_docs section pre code {
+  padding: 0;
+  font-size: 1em;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+.meow_docs section code {
+  padding: .3em .5em;
+  font-size: .9em;
+  vertical-align: middle;
+  border: 1px solid #ECECEC;
+  border-radius: 2px;
+  background-color: #F7F7F7;
+}
+.meow_docs section code.code_inline {
+  padding: 0 .5em;
+}
+.meow_docs section img {
+  vertical-align: middle;
+}
+.meow_docs section p + p {
+  margin-top: 8px;
+}
+.meow_docs section a {
+  color: #6190e8;
+}
+.meow_docs section table.table {
+    border-collapse: collapse;
+    width: calc(100% - 2rem);
+    background-color: #fff;
+    font-size: 14px;
+    margin:0.5rem 1rem 45px 1rem;
+    line-height: 1.5em;
+    overflow: auto;
+}
+.meow_docs section table.table th:first-child,.meow_docs section table.table td:first-child {
+  padding-left: 10px;
+}
+.meow_docs section table.table th {
+  /* border-top: 1px solid #f3f7fa;
+  background-color: #FAFBFC;
+  border-bottom: 1px solid #f3f7fa;
+  padding: 10px 8px; */
+  text-align: left;
+  white-space: nowrap;
+  color: #909399;
+  font-weight: 400;
+}
+.meow_docs section table.table td,.meow_docs section table.table th{
+    border-bottom: 1px solid #dcdfe6;
+    padding: 10px;
+    max-width: 250px;
+}
+.meow_docs section table.table td {
+  color: #606266;
+}
+
+.meow_docs input[type="checkbox"]:checked + label
+{
+  padding-left: 5px;
+  text-decoration: line-through;
+  text-decoration-color: #606266;
+  color: #909399;
+}
+
