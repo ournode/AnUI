@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^10.4.1",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
